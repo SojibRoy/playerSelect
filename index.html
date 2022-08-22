@@ -10,8 +10,113 @@
 </head>
 <body>
     <header>
-        <h1 class="text-white">hello world</h1>
+        <div class="banner d-flex flex-column justify-content-center align-items-center ">
+            <h1 class="b-text display-1">Get Your Best Fives</h1>
+            <p class=" text-white w-75 fs-5">Choose your best five players for your game. We are offering huge range of most renowned players world wide at a best price. Select your five players</p>
+        </div>
     </header>
+    <main>
+        <section class=" container mt-5 mb-5">
+           <div>
+            <div class="row row-cols-2 row-cols-md-4 g-4">
+                <div class="col">
+                  <div class="card rounded-0 border-secondary h-100">
+                    <img src="./img/cr.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-black">
+                      <h5 class="card-title text-white text-center display-6">Ronaldo</h5>
+                      <button id="btn-ronaldo" class="btn btn-primary col-12 mx-auto mt-3 rounded-0">Select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-0 border-secondary h-100">
+                    <img src="./img/harry.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-black">
+                      <h5 class="card-title text-white text-center display-6">Harry Kane</h5>
+                      <button id="btn-harry" class="btn btn-primary col-12 mx-auto mt-3 rounded-0">Select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-0 border-secondary h-100">
+                    <img src="./img/marcelo.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-black">
+                      <h5 class="card-title text-white text-center display-6">Marcelo</h5>
+                      <button id="btn-marcelo" class="btn btn-primary col-12 mx-auto mt-3 rounded-0">Select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <h4 class="card-title text-white text-center m-4">Selected-V</h4>
+                    <ol class="fs-3 text-muted fw-bold">
+                        <li id="selected-1" class="m-2"></li>
+                        <li id="selected-2" class="m-2"></li>
+                        <li id="selected-3" class="m-2"></li>
+                        <li id="selected-4" class="m-2"></li>
+                        <li id="selected-5" class="m-2"></li>
+                    </ol>
+                </div>
+                <div class="col">
+                  <div class="card rounded-0 border-secondary h-100">
+                    <img src="./img/messi.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-black">
+                      <h5 class="card-title text-white text-center display-6">Messi</h5>
+                      
+                      <button id="btn-messi" class="btn btn-primary col-12 mx-auto mt-3 rounded-0">Select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-0 border-secondary h-100">
+                    <img src="./img/neymar.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-black">
+                      <h5 class="card-title text-white text-center display-6">Neymar</h5>
+                      
+                      <button id="btn-neymar" class="btn btn-primary col-12 mx-auto mt-3 rounded-0">Select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-0 border-secondary h-100">
+                    <img src="./img/roney.png" class="card-img-top" alt="...">
+                    <div class="card-body bg-black">
+                      <h5 class="card-title text-white text-center display-6">Ronney</h5>
+                      
+                      <button id="btn-ronney" class="btn btn-primary col-12 mx-auto mt-3 rounded-0">Select</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h4 class="card-title text-white text-center m-4">Budget</h4>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <label class="text-secondary fs-5 fw-semibold" for="text">Per Player</label>
+                            <input  class="bg-black border w-50 text-center py-2 text-white" type="" name="" id="player-rate" value="1000">
+                        </div>
+                        <button id="btn-calculate" class="btn btn-primary col-12 max-auto rounded-0 mt-4">Calculate</button>
+                        <p class="text-secondary text-center m-4 fs-5 fw-semibold">Player Expenses $<span id="player-expense">0000</span></p>
+                    </div>
+                    <div>
+                        <div class="d-flex justify-content-between align-items-center my-3">
+                            <label class="text-secondary fs-5 fw-semibold" for="text">Manager</label>
+                            <input class="bg-black border w-50 text-center py-2 text-white" type="" name="" id="" value="2000">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <label class="text-secondary fs-5 fw-semibold" for="text">Coach</label>
+                            <input class="bg-black border w-50 text-center py-2 text-white" type="" name="" id="" value="4000">
+                        </div>
+                        <button id="btn-total" class="btn btn-primary col-12 max-auto rounded-0 mt-4">Calculate Total</button>
+                        <p class="text-secondary text-center m-3 fs-5 fw-semibold">Total $<span id="total-expense">0000</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+           <div>
+           
+           </div>
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="./js/select.js"></script>
   </body>

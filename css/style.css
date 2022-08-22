@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 body{
     background-color: black;
+}
+
+.banner{
+    background-image:url(../img/joshua-hoehne-8ZvTRSRdsOA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.b-text{
+    font-family: 'Berkshire Swash', cursive;
+    color: #FF5E19;
 }
